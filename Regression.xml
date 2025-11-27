@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CURA Automation Suite">
+
+
+<listeners>
+    <listener class-name="utils.ExtentListener"/>
+</listeners>
+
+    <test name="E2E Tests">
+        <classes>
+            <class name="tests.e2e_Test"/>
+        </classes>
+    </test>
+
+</suite>

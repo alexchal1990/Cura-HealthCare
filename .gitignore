@@ -1,0 +1,17 @@
+# Ignore build output
+/target/
+/test-output/
+
+# Ignore IntelliJ/Eclipse files
+/.idea/
+/.project
+/.classpath
+/.settings/
+
+# Ignore extent screenshots
+*.png
+.reports/
+# Mac / Linux
+.DS_Store
+
+
